@@ -202,6 +202,9 @@ nav a {
 }
 
 /* Social Media Styles */
+.social-media svg path{
+	fill: currentColor;
+}
 
 
 
