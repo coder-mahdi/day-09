@@ -207,11 +207,15 @@ nav a {
 
 /* Grid Practice Styles */
 .grid-practice {
-	grid-auto-rows: 1fr;
+	/*grid-auto-rows: 1fr;*/
 	display: grid;
 	grid-template-columns: repeat(3, 4.75rem);
 	grid-template-rows: repeat(3, 4.75rem);
-	gap: .5rem
+	gap: .5rem;
+	grid-auto-flow: column;
+	grid-auto-columns: 4.75rem;
+	justify-content: center;
+	
 }
 
 .grid-box {
